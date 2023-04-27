@@ -1165,3 +1165,18 @@ select {
   margin-right: 0;
   margin-top: 40px;
 }
+
+.admin__table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.admin__subtitle {
+  background-color: grey;
+  color: #fff;
+}
+
+.admin__description {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
