@@ -13,6 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="
+https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
+"
+      rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="dist/notiflix-X.X.X.min.css" /> -->
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap"
       rel="stylesheet" />
 
@@ -434,7 +440,7 @@
             </svg>
           </button>
           <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
-          <form>
+          <form class="form">
             <div class="line-box">
               <div class="box">
                 <div class="modal-field">
@@ -442,7 +448,7 @@
                     <div class="input-wrap">
                       <input
                         type="text"
-                        name="user-name"
+                        name="userName"
                         class="modal-input"
                         placeholder="Ваше ім’я"
                         maxlength="20"
@@ -461,7 +467,6 @@
                         class="modal-input"
                         placeholder="+38 (___) ___-__-__"
                         maxlength="15"
-                        pattern="^[0-9+()-\s]+"
                         required
                         id="user-tel" />
                     </div>
@@ -586,7 +591,11 @@
         </div>
       </div>
     </footer>
-
+    <!-- <script src="dist/notiflix-notify-aio-3.2.6.min.js"></script> -->
+    <!-- <script src="dist/notiflix-aio-3.2.6.min.js"></script> -->
+    <script src="
+https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-aio-3.2.6.min.js
+"></script>
     <script src="./js/modal-book-table.js"></script>
   </body>
 </html>
