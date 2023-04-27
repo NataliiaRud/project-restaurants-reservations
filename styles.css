@@ -675,12 +675,13 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(0);
+  transform: translate(-50%, -30%) rotate(0);
   transition: transform 250ms linear, border-radius 250ms linear;
   padding: 60px 15px;
   width: 712px;
   height: 522px;
   padding: 60px;
+  z-index: 100;
 }
 
 .backdrop.is-hidden {
@@ -690,7 +691,7 @@ body {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) rotate(-360deg);
+  transform: translate(-50%, -50%);
   border-radius: 50%;
 }
 
