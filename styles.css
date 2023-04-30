@@ -1181,3 +1181,30 @@ select {
   padding: 10px;
   border: 1px solid #2a2a2a;
 }
+/* ------------------------------Login */
+.login-container {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+}
+.login-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-data {
+  margin-top: 15px;
+}
+.login-name {
+  margin-left: 73px;
+}
+.login-btn {
+  margin-top: 20px;
+  margin-left: 143px;
+}
